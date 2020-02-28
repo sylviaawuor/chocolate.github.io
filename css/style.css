@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    background: transparent;
+    text-decoration:none;
+    quotes:none;
+    list-style:none;
+}
+html, body {
+  height:100%;
+}
+
+body:unresolved{
+    opacity:0;
+}
+body{
+    margin:0 ;
+    padding:0;
+    line-height:1;
+    opacity:1;
+    -webkit-text-size-adjust:none;
+}
+::-moz-selection { /* Code for Firefox */
+    color: #ffffff;
+    background: #000000;
+}
+::selection {
+    color: #fecc04;
+    background: #000000;
+}
+article, aside, footer, header, hgroup, nav, section, figure, figcaption{display:block; margin:0;}
+*{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+input,textarea{-webkit-border-radius:0;border-radius:0;font-family: 'Raleway', sans-serif;}
+input[type=submit],
+input[type=button]{-webkit-appearance:none;}
+button{font-family: 'Raleway', sans-serif;}
+blockquote:before, blockquote:after, q:before, q:after{content: '';content:none;}
+:focus{outline:0;}
+::-moz-focus-inner {border:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+*, *:after, *:before {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+}
+a{
+    transition: all 0.9s ease;
+    outline:none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+.clearfloat{ clear:both;}
+body h1{ font-size:32px;font-family: 'Raleway', sans-serif;}
+body h2{ font-size:20px;font-family: 'Raleway', sans-serif;}
+body h3{ font-size:18px;font-family: 'Raleway', sans-serif;}
+body h4{ font-size:16px;font-family: 'Raleway', sans-serif;}
+body h5{ font-size:14px;font-family: 'Raleway', sans-serif;}
+body h6{font-size: 14px;font-family: 'Raleway', sans-serif;}
+body p{
+    font-size:13px;
+    line-height:normal;
+    font-weight:300;
+    font-family: 'Raleway', sans-serif;
+}
+img{
+    width:100%;
+    display:block;
+    transition:all 1s ease;
+    margin: auto;
+}
+.container{
+    width: 100%;
+    float: left;
+}
+
+.chocolate-spread-wrapper{
+    width: 100%;
+    float: left;
+    display: table;
+    background-image: url(../images/spread-background.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+}
+.spread-details{
+    width: 40%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 40px;
+}
+
+.spread-details h1{color: #ffffff;text-transform: uppercase;font-weight: bolder;}
+
+.spread-details p{color: #ffffff;font-size: 15px;padding: 20px 0;}
+.spread-details h6{color: #ffffff;font-weight: 900;}
+.spread-details h6 span{
+    font-weight: 200;
+}
+
+.spread-images{
+    width: 60%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.spread-images img{
+    width: 65%;
+    float: right;
+}
+
+.share-wrapper{width: 100%;float: left;padding: 40px 0 10px 0;}
+.share-wrapper ul{float: left;padding: 5px 10px 0 10px;}
+.share-wrapper ul li{display: inline-block;padding: 2px;}
+.share-wrapper ul li a{width: 30px;height: 30px;text-align: center;color: #ffffff;border: 1px solid #ffffff;border-radius: 50%;padding: 6px 0 0 0;}
+.share-wrapper ul li a:hover{
+    background-color: #8a5920;
+    color: #ffffff;
+    border: 1px solid #8a5920;
+}
+.share-icon{float: left;padding: 11px 20px;border: 2px solid #ffffff;border-radius: 4px;}
+.share-icon i{color: #ffffff;}
+.share-icon b{
+    color: #ffffff;
+    padding: 0 0 0 10px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+@media handheld, only screen and (max-width: 960px) {
+    .spread-details{width: 100%;display: block;float: left;}
+    .spread-images{width: 100%;display: block;float: left;}
+}
+
+
+
+
+
